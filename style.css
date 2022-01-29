@@ -6,7 +6,30 @@
     height: 15px;
 }
 
-
 .ms_search_lens {
     height: 30px;
+}
+
+.game_jumbo {
+    color: white;
+}
+
+.game_card img{
+    width: 55%;
+}
+
+.game_jumbo .row{
+    min-height: 750px;
+}
+
+.ms_returnal {
+    background-image: url('img/jumbo-bg.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.ms_it_takes_two {
+    background-image: url('img/it-takes-two-hero-banner-desktop.jpg');
+    background-size: cover;
+    background-position: center;
 }
