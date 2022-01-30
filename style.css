@@ -72,3 +72,26 @@
 .ms_ps4_img img {
     max-width: 100%;
 }
+
+#ms_psPlus_banner {
+    background-color: #BEBCBB;
+}
+
+.ms_psPlus_title img {
+    max-width: 65%;
+}
+
+.ms_psPlus_image img {
+    max-width: 100%;
+}
+
+.ms_btn_style {
+    background-color: #D9DADC !important;
+    color: #4A78E4 !important;
+    border-color: #C1C3C6 !important;
+}
+
+#ms_psNow_banner {
+    background-color: #161C3B;
+    color: white;
+}
