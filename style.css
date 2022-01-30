@@ -33,3 +33,16 @@
     background-size: cover;
     background-position: center;
 }
+
+.ms_image_width img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.ms_playstation_slogan {
+    color: #0575CF;
+}
+
+.ms_playstation_description {
+    color: #727272;
+}
