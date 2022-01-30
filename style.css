@@ -46,3 +46,15 @@
 .ms_playstation_description {
     color: #727272;
 }
+
+.ms_console_description {
+    color: #727272;
+}
+
+.ms_console_image img {
+    max-width: 100%;
+}
+
+.ms_accessories_image img {
+    max-width: 60%;
+}
