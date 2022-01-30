@@ -58,3 +58,15 @@
 .ms_accessories_image img {
     max-width: 60%;
 }
+
+
+#newReleases {
+    min-height: 600px;
+    background-color: #1F1F1F;
+    color: white;
+}
+
+.ms_release_img img {
+    max-width: 100%;
+    border-radius: 15px;
+}
