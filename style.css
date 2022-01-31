@@ -28,6 +28,19 @@
     background-position: center;
 }
 
+.game_thumb_card.active, .game_thumb_card:hover {
+    border: 3px solid #0072CE;
+    border-radius: 17px;
+    outline: 3px solid white;
+    outline-offset: -6px;
+    overflow: hidden;
+}
+
+.game_thumb_card:hover {
+    transform: translateY(-10px);
+    transition: 0.2s;
+}
+
 .ms_it_takes_two {
     background-image: url('img/it-takes-two-hero-banner-desktop.jpg');
     background-size: cover;
@@ -71,6 +84,7 @@
 .ms_accessories li:hover .ms_console_accessories {
     opacity: 1;
     border-bottom: 3px solid #006DCC;
+    transition: 0.2s;
 }
 
 #newReleases {
@@ -81,6 +95,11 @@
 .ms_release_img img {
     max-width: 100%;
     border-radius: 15px;
+}
+
+.ms_release_img:hover img {
+    transform: scale(1.05);
+    transition: 0.5s;
 }
 
 .ms_ps4_img img {
@@ -114,10 +133,19 @@
     max-width: 100%;
 }
 
+.ms_psStore_image:hover img {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
 .ms_social_image img {
     max-width: 100%;
 }
 
+.ms_social_image:hover img {
+    transform: scale(1.05);
+    transition: 0.2s;
+}
 
 #ms_footer_background {
     min-height: 600px;
