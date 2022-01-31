@@ -59,6 +59,20 @@
     max-width: 60%;
 }
 
+.ms_console_accessories {
+    opacity: 0.5;
+}
+
+.ms_console_accessories.active {
+    opacity: 1;
+    border-bottom: 3px solid #006DCC;
+}
+
+.ms_accessories li:hover .ms_console_accessories {
+    opacity: 1;
+    border-bottom: 3px solid #006DCC;
+}
+
 #newReleases {
     background-color: #1F1F1F;
     color: white;
@@ -123,3 +137,4 @@
 .ms_footer_logo img {
     width: 150px;
 }
+
