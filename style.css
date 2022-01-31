@@ -160,3 +160,26 @@
         padding: 15px 0;
     }
 }
+
+@media screen and (max-width: 576px) {
+    
+    .ms_console_accessories p {
+        display: none;
+    }
+
+    .row.ms_accessories {
+        justify-content: flex-start !important;
+    }
+
+    .ms_psPlus_image {
+        display: none;
+    }
+
+    #ms_psPlus_banner .ms_psPlus_content {
+        padding: 15px 0;
+    }
+
+    #ms_psNow_banner .ms_psNow_content {
+        padding: 15px 0;
+    }
+}
