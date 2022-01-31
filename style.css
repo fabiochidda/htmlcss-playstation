@@ -95,3 +95,31 @@
     background-color: #161C3B;
     color: white;
 }
+
+.ms_psStore_image img {
+    max-width: 100%;
+}
+
+.ms_social_image img {
+    max-width: 100%;
+}
+
+
+#ms_footer_background {
+    min-height: 600px;
+    background-color: #00439C;
+    color: white;
+}
+
+#ms_footer_background a {
+    color: white;
+    text-decoration: none;
+}
+
+.ms_sony_logo {
+    max-width: 30%;
+}
+
+.ms_footer_logo img {
+    width: 150px;
+}
